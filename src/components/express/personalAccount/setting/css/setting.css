@@ -1,0 +1,16 @@
+.dropzona{
+    outline: none !important;
+    height: 70px!important;
+    min-height: 70px!important;
+    background: white !important;
+    border: 3px dashed #1099f5 !important;
+}
+/*.DropzoneArea-uploadIconSize-152{*/
+/*    position: relative;*/
+/*    top: -12px;*/
+/*    color: #1099f5 !important;*/
+/*}.DropzoneArea-uploadIconSize-10{*/
+/*    position: relative;*/
+/*    top: -12px;*/
+/*    color: #1099f5 !important;*/
+/*}*/

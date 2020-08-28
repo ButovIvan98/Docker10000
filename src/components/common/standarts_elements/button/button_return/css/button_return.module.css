@@ -1,0 +1,17 @@
+.main_block {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: transparent;
+    border: 0;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.button span {
+    padding-left: 15px;
+    opacity: 40%;
+    color: black;
+}

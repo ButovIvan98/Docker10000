@@ -1,0 +1,78 @@
+.iconsLogo{
+    width: 50px;
+}
+.headerText{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    z-index: 999999 !important;
+}
+.headerDesc{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0B202C;
+    opacity: 0.8;
+    text-align: center;
+}
+.blockInformationCompany{
+    position: relative;
+    width: 228px;
+    height: 228px;
+    background-color: white;
+    float: left;
+    border: 0px solid white;
+    border-radius: 8px;
+}
+.indexEllipses{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 48px;
+    background: #f5fbfe;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.ellipsesText{
+    position: relative;
+    color: #26a4ec;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    margin: 10px;
+    top: -55px;
+    text-align: center;
+}
+.ellipsesDesc{
+    position: relative;
+    top: -20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}
+@media (max-width: 992px) {
+    .ellipsesDesc{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .headerText{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .headerDesc{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blockInformationCompany{
+        width: 100%;
+    }
+    .ellipsesText{
+        font-size: 24px;
+        line-height: 31px;
+        top: -50px;
+    }
+}

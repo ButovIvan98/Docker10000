@@ -1,0 +1,158 @@
+.blockCard{
+    background: white;
+    width: 100%;
+    height: 70px;
+    border-radius: 4px;
+    border-left: 5px solid #4e73df;
+    cursor: pointer;
+}
+.blockCard:hover{
+    box-shadow: 0 0 5px rgba(0, 162, 255, 0.5);
+}
+.mainBlock{
+    background: #ededf0;
+}
+.textHeader{
+    color: #4e73df;
+    padding-left: 30px;
+}
+.blockElement{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.grafBlock svg{
+    background: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.blockFoto{
+   width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.blockFotoCompany{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+.imgProfile{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+}
+.fotoProfile{
+    height: 40px;
+    position: relative;
+    top: -40px;
+}
+.blockCardProfile{
+    background: white;
+    border-radius: 8px;
+}
+.linkSetting{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.linkSetting:hover{
+    transform: rotate(360deg);
+}
+.linkPush{
+}
+.linkPush:hover{
+    animation: animationVibro 2s ease-in-out infinite;
+}
+@keyframes animationVibro{
+    0%,50%,100%{
+        transform: rotate(0deg);
+    }
+    10%,30%{
+        transform: rotate(10deg);
+    }
+    20%,40%{
+        transform: rotate(-10deg);
+    }
+}
+.linkSMS{
+
+}
+.linkSMS:hover{
+    animation: animationVibro2 2s ease-in-out infinite;
+}
+@keyframes animationVibro2{
+    0% { transform: translate(0.1px, 0.1px) rotate(0deg); }
+    10% { transform: translate(-0.1px, -0.2px) rotate(-1deg); }
+    20% { transform: translate(-0.3px, 0px) rotate(1deg); }
+    30% { transform: translate(0.3px, 0.2px) rotate(0deg); }
+    40% { transform: translate(0.1px, -0.1px) rotate(1deg); }
+    50% { transform: translate(-0.1px, 0.2px) rotate(-1deg); }
+    60% { transform: translate(-0.3px, 0.1px) rotate(0deg); }
+    70% { transform: translate(0.3px, 0.1px) rotate(-1deg); }
+    80% { transform: translate(-0.1px, -0.1px) rotate(1deg); }
+    90% { transform: translate(0.1px, 0.2px) rotate(0deg); }
+    100% { transform: translate(0.1px, -0.2px) rotate(-1deg); }
+ }
+/*Блок отображения моих компаний*/
+.textHeaderCompany{
+    color: #007bff;
+    font-weight: 700;
+}
+.lineHr{
+    border-top: 2px dashed #007bff;
+    margin-top: 0;
+}
+.imgCompany{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 90px;
+    position: relative;
+    top: -25px;
+}
+.blockImg{
+    height: 30px;
+}
+.labelDesc{
+    position: relative;
+    top:-15px;
+    font-size: 14px;
+    color: #0B202C;
+    opacity: 0.5;
+}
+.blockCompany{
+    box-shadow: 0 0 5px #E3E3E3;
+}
+.labelDesc2{
+    position: relative;
+    top:-15px;
+    font-size: 12px;
+    color: #0B202C;
+    opacity: 0.5;
+}
+.leftDescInfo{
+    border-right: 1px solid darkgrey;
+    height: 40px;
+}
+.rightDescInfo{
+    border-left: 1px solid darkgrey;
+    height: 40px;
+}
+.detailedReports{
+    background: linear-gradient(210.4deg, #18A2F1 16.79%, #0085FF 100%);
+    padding: 10px 25px;
+    border-radius: 45px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.detailedReports:hover{
+    box-shadow: 0 10px 30px rgba(0, 133, 255, 0.3);
+}
+.blockPayment{
+    background: white;
+    border-radius: 8px;
+}
+.limitHeight{
+    max-height: 300px;
+    overflow-y: auto;
+}

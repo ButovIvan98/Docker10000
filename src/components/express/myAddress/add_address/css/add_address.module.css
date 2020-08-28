@@ -1,0 +1,38 @@
+.headerText{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+.styleBlock{
+
+}
+.input{
+    width: 100%;
+}
+.block{
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+.addAddress{
+    width: 200px;
+    border: 0;
+    border-radius: 90px;
+    height: 50px;
+    color: white;
+    background: #0074D9;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addAddress:hover{
+    background: #183C51;
+}
+.addAddress:active{
+    background: #001C2D;
+}
+@media (max-width: 992px) {
+    .headerText{
+        font-size: 26px;
+    }
+}

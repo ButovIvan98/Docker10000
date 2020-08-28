@@ -1,0 +1,64 @@
+.main {
+    background-color: white;
+}
+.headerText{
+    font-size: 25px;
+}
+.blockImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    background: #e3f4fc;
+    margin: 0 auto;
+}
+
+.blockImg img {
+    width: 50px;
+    margin: 10px;
+}
+
+.textHeader {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00A2FF;
+}
+
+.textHeaderLight {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00A2FF;
+}
+.pageText{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+}
+.labelTextForImg{
+    color: #00A2FF;
+}
+.listPage{
+    font-size: 14px;
+    text-align: justify;
+}
+.poleCode{
+    width: 100%;
+    display: inline-block;
+    color: green;
+    padding: 15px;
+    padding-bottom: 0;
+    resize: none;
+}
+@media(max-width:920px){
+    .headerText{
+        font-size: 16px;
+    }
+    .pageText{
+        font-size: 12px;
+    }
+    .labelTextForImg{
+        font-size: 11px;
+    }
+    .listPage{
+        font-size: 12px;;
+    }
+}

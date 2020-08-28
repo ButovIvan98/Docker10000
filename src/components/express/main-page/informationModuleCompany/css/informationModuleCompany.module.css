@@ -1,0 +1,47 @@
+.widgetHeader {
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+}
+.widgetHeader2{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+.blockInfo{
+    width: 94px;
+    height: 94px;
+    margin: 0 auto;
+    background: #f5fbfe;
+    border: 12px solid #f5fbfe;
+    border-radius: 45px;
+}
+.blockInfo img{
+    width: 70px;
+}
+.descHeader{
+    font-size: 16px;
+}
+.button{
+    padding: 15px 25px;
+    background: #00A2FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+@media (max-width: 992px) {
+    .widgetHeader {
+        font-size: 17px;
+        font-weight: normal;
+        top: -7px;
+    }
+    .widgetHeader2{
+        font-size: 12px;
+    }
+    .blockInfo img{
+        width: 50px;
+    }
+    .descHeader{
+        font-size: 14px;
+    }
+}

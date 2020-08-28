@@ -1,0 +1,24 @@
+/*Работа с рамками таблиц*/
+.tableDashed{
+    border: 1px dashed black;
+    font-size: 14px;
+}
+.tableSolid{
+    border: 2px solid black;
+}
+/*Стили текста*/
+.text{
+    font-size: 14px;
+}
+.textCompany{
+    font-size: 13px;
+}
+.littleText{
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+}
+/*Линии подчеркивания*/
+.line{
+    border-bottom: 2px solid black;
+}

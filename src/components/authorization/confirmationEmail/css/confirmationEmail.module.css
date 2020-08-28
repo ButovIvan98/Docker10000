@@ -1,0 +1,29 @@
+.blockMain{
+    box-shadow: 0 0 5px #E3E3E3;
+    background: white;
+    border-radius: 4px;
+}
+.text{
+    font-size: 25px;
+    line-height: 40px;
+}
+.buttonLogin{
+    padding: 15px 25px;
+    background-color: #18A2F1;
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.buttonLogin:hover{
+    text-decoration: none;
+}
+.buttonLogin:hover{
+    color: white;
+    text-decoration: none;
+    background: #183C51;
+}
+.buttonLogin:active{
+    color: white;
+    text-decoration: none;
+    background: #2a2d46;
+}

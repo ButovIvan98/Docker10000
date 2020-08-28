@@ -1,0 +1,33 @@
+.block {
+    z-index: 99999;
+    background-color: white;
+    width: calc(100% - 30px);
+    margin-top: -30px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+div ::-webkit-scrollbar-track {
+    background: #595a62;
+    border-left: 5px solid #2a2d46;
+    border-right: 5px solid #2a2d46;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.blockCity:hover {
+    background: rgba(53, 165, 230, 0.3);
+    cursor: pointer;
+
+}
+
+.blockCity p {
+    padding: 10px 25px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,48 @@
+.navLink {
+    text-decoration: none !important;
+}
+.listOrder {
+     background-color: white;
+     padding: 20px;
+     border-radius: 4px;
+     cursor: pointer !important;
+     box-shadow: 0 0 5px #E3E3E3;
+ }
+.listOrder:hover {
+    box-shadow: 0 0 5px rgba(0, 162, 255, 0.5);
+    transition: 0.3s;
+}
+.line {
+    width: 10%;
+    background: #FABD20;
+    height: 3px;
+    position: relative;
+    margin: 0 !important;
+    margin-left: 15px !important;
+}
+.textHeader {
+    font-size: 16px;
+    line-height: 18px;
+    color: #0B202C;
+}
+.text {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0B202C;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+.lineDouble {
+    border: 0.5px dashed #FABD20;
+}
+.cityIn {
+    border-right: 1px solid grey;
+}
+.statusOrder {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+.loading{
+    padding-left: 5px;
+}

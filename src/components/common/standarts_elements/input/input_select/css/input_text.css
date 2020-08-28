@@ -1,0 +1,17 @@
+.notActiveLabel {
+    position: relative;
+    top: -50px;
+    left: 30px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.ActiveLabel {
+    position: relative;
+    top: -80px;
+    left: 30px;
+    color: black;
+    opacity: 0.6;
+    font-size: 12px;
+}

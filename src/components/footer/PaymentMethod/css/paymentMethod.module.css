@@ -1,0 +1,74 @@
+.block {
+    position: relative;
+    top: 15px;
+    border-radius: 4px;
+}
+
+.blockRow {
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.payTextHeader {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.payTextHeader2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.payImages2 {
+    width: 40%;
+    box-shadow: 0 0 5px grey;
+    border-radius: 15px;
+}
+
+.payTextCardLeft {
+    position: relative;
+    right: 80px;
+    top: 7px;
+}
+
+.payTextCardRight {
+    position: relative;
+    top: 7px;
+    left: 70px;
+}
+
+.paySberbank {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.visaCard {
+    width: 100%;
+    max-width: 320px;
+}
+
+.imgSber {
+    width: 200px;
+}
+
+@media (max-width: 920px) {
+    .payImages2 {
+        width: 100%;
+    }
+
+    .payTextHeader {
+        font-size: 14px;
+    }
+
+    .payTextOld {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .payTextHeader2 {
+        font-size: 13px;
+    }
+}

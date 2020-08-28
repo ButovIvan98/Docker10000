@@ -1,0 +1,88 @@
+.blockMain{
+    box-shadow: 0 0 5px #E3E3E3;
+    background: white;
+    border-radius: 4px;
+}
+.line{
+    margin-top: 0px;
+    margin-bottom: 0;
+    border: 0.5px dashed darkgrey;
+}
+.buttonAddressBook{
+    border: 0;
+    background: #0074D9;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+    outline: none!important;
+    cursor: pointer;
+}
+.buttonAddressBook:hover{
+    background: #183C51;
+}
+.buttonAddressBook:active{
+    background: #001C2D;
+}
+.text{
+    opacity: 0.5;
+}
+.textMoney{
+    font-weight: bold;
+}
+.buttonPayment{
+    padding: 5px 0px;
+    width: 100%;
+    background: #0074D9;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+    outline: none!important;
+    cursor: pointer;
+}
+.buttonPayment:hover{
+    background: #183C51;
+}
+.buttonPayment:active{
+    background: #001C2D;
+}
+.scrollingBlock{
+    position: sticky;
+    top: 20px;
+}
+.input{
+    width: 100%;
+}
+.header{
+    font-size: 28px;
+}
+/*Модальное окно*/
+.blockModal{
+    width: 450px;
+    background: white;
+    margin: 0 auto;
+}
+.rowCompanyModal{
+    cursor: pointer;
+    box-shadow: 0 0 2px darkgrey;
+    padding: 10px;
+    border-radius: 8px;
+    transition:0.1s;
+}
+.rowCompanyModal:hover{
+    box-shadow: 0 0 4px darkgrey;
+}
+@media (max-width: 992px) {
+    .line{
+        margin-top: 10px;
+    }
+    .header{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .headerText{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

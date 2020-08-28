@@ -1,0 +1,21 @@
+
+.blockRow {
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aboutTextDescription {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+@media (max-width: 991px) {
+    .aboutTextDescription {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

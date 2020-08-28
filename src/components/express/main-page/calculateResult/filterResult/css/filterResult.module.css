@@ -1,0 +1,57 @@
+.blockFilter{
+    width: 300px;
+    height: 45px;
+    margin: 0 auto;
+}
+.buttonCheaply{
+    outline: none !important;
+    border: 0;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 45px 0 0 45px;
+    background: linear-gradient(180deg, #E74F3B 0%, #FC8E0E 100%);
+}
+.buttonCheaply:hover{
+    box-shadow: 0px 10px 30px rgba(252,142,14,0.3);;
+}
+.buttonQuickly{
+    outline: none !important;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    border-radius: 0 45px 45px 0;
+    background: linear-gradient(206.06deg, #34A5E5 16.79%, #00A2FF 100%);
+}
+.buttonQuickly:hover{
+    box-shadow: 0px 10px 30px rgba(0, 133, 255, 0.3);
+}
+.textHeaderFilter{
+    color: white;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icons{
+    height: 24px;
+    width: 24px;
+}
+@media (max-width: 992px) {
+    .textHeaderFilter{
+        font-size: 14px;
+    }
+    .buttonQuickly{
+        width: 130px;
+    }
+    .buttonCheaply{
+        width: 130px;
+    }
+    .blockFilter{
+        width: 260px;
+    }
+    .icons{
+        height: 18px;
+        width: 18px;
+    }
+}

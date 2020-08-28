@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock {
+    background: linear-gradient(210.4deg, #18A2F1 0.79%, #0085FF 100%);
+}
+.indexHeaderLogo {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.buttonMobileMenu {
+    outline: none!important;
+    border-color: transparent!important;
+    background-color: transparent !important;
+    border: 0;
+    float: right;
+    outline: none!important;
+}
+.buttonMobileMenu:hover{
+    background-color: transparent;
+}
+.phoneNumber {
+    font-size: 16px;
+    color: white!important;
+    display: inline-block;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-decoration: none!important;
+    margin-left: 15px;
+
+}
+.indexHeaderLk {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    text-decoration: none !important;
+    padding: 10px 15px;
+}
+
+.indexBlockUser {
+
+    position: absolute;
+    right: 10px;
+    width: 150px;
+    float: right;
+    margin-right: 0;
+    box-shadow: 0 5px 5px black;
+    border-radius: 4px;
+    background: #112f40;
+    top: 0;
+    z-index: 9999;
+}
+.indexBlockUserLink {
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.indexBlockUserLink p {
+    padding-right: 15px;
+}
+
+.lineHeader {
+    background: white;
+    margin: 0 10px;
+}
+
+.iconsHeader {
+    width: 12px;
+    opacity: 0.4;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.headerLogo {
+    margin-top: 0;
+    margin-left: 15px;
+}
+.listHeader{
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.listBlock{
+    padding: 15px;
+    position: absolute;
+    right: 15px;
+    min-width: 213px;
+    background: #112f40;
+}
+.listBlock p{
+    text-align: left;
+    color: white;
+}
+.imgHeader{
+    object-fit: cover;
+    border-radius: 90px;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    margin-left: 25px;
+}
+.lineList{
+    background: white;
+}
+.imgProfile{
+    display: flex;
+    border-radius: 90px;
+    height: 35px;
+    width: 35px;
+    background: lightsalmon;
+    justify-content: center;
+}
+.imgProfile p{
+    font-size: 22px;
+    color: white;
+}
+.textList{
+    font-size: 15px;
+    color: white;
+}
+

@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(150deg, rgb(136, 211, 206) 0%, rgb(110, 69, 226) 100%);
+}
+
+.contentHeader {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.menu {
+    width: 60%;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.menu ul li a.active {
+    color: gold;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.icons {
+    height: 50px;
+}
+
+.logo {
+
+}
+
+.friends {
+    display: flex;
+    flex-direction: row;
+}
+
+.friends div {
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.friend p {
+    margin-top: -10px;
+}
+
+.iconsProfile {
+    width: 25px;
+    height: 25px;
+    background: olive;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 7px;
+}

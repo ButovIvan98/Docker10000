@@ -1,0 +1,18 @@
+.button {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 24px 50px 28px 50px;
+    background: linear-gradient(207.57deg, #34A5E5 16.79%, #00A2FF 100%);
+    border: 0;
+    border-radius: 40px;
+    outline: none !important;
+}
+
+@media (max-width: 991px) {
+    .button {
+        padding: 21px 50px 21px 50px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

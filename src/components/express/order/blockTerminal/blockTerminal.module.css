@@ -1,0 +1,19 @@
+.selectList{
+    position: relative;
+    width: 100%!important;
+}
+.list{
+    padding: 5px;
+    transition: 0.3s;
+}
+.list:hover{
+    background: #c4e5ee;
+    cursor: pointer;
+}
+.list:active{
+    background: #28a4eb;
+    cursor: pointer;
+}.list:checked{
+    background: #28a4eb;
+    cursor: pointer;
+}

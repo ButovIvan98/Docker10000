@@ -1,0 +1,86 @@
+.iconsTk {
+    width: 75%;
+}
+
+.block {
+    background: white;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.block:hover {
+    box-shadow: 0px 3px 3px rgba(1, 61, 96, 0.05);
+}
+
+.textHeader {
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0B202C;
+}
+
+.textDesc {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0B202C;
+    opacity: 0.5;
+    position: relative;
+    top: -3px;
+}
+
+.buttonTextHeader {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.buttonTextDesc {
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    top: -3px;
+}
+
+.buttonClick {
+    outline: none !important;
+    cursor: pointer;
+    width: 100%;
+    border: 0;
+    background: linear-gradient(210.4deg, #18A2F1 16.79%, #0085FF 100%);
+    border-radius: 40px;
+    transition: 0.3s;
+    line-height: 21px;
+}
+
+.buttonClick:hover {
+    box-shadow: 0px 10px 30px rgba(0, 133, 255, 0.3);
+}
+
+@media (max-width: 992px) {
+    .buttonClick {
+        width: 70%;
+    }
+
+    .iconsTk {
+        width: 100%;
+    }
+
+    .textHeader {
+        font-size: 14px;
+    }
+
+    .buttonTextHeader {
+        font-size: 14px;
+    }
+
+    .textDesc {
+        font-size: 10px;
+    }
+
+}

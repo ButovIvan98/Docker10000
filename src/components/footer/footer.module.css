@@ -1,0 +1,28 @@
+.footer {
+    position:fixed;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.indexFooter ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 25px 10px 25px;
+}
+
+.indexFooter ul li a {
+    color: black;
+    opacity: 0.5;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.indexFooterText {
+    position: relative;
+    margin-right: 45px;
+    color: #0B202C;
+    opacity: 0.5;
+    font-size: 12px;
+    margin-bottom: 0!important;
+}

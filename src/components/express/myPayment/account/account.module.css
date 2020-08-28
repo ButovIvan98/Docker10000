@@ -1,0 +1,8 @@
+.block{
+    background: white;
+}
+.line{
+    margin-top: 5px;
+    border: none;
+    border-top: 2px dashed #ddd;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+.indexBlockUserLink {
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.indexBlockUserLink p {
+    padding-right: 15px;
+}
+
+.lineHeader {
+    background: white;
+    margin: 0 10px;
+}
+
+.iconsHeader {
+    width: 12px;
+    opacity: 0.4;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.headerLogo {
+    margin-top: 0;
+    margin-left: 15px;
+}
+.listHeader{
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.listBlock{
+    margin-top: 5px;
+    border-top: 2px dashed white;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    min-width: 213px;
+    background: #112f40;
+    animation: moveRightLeft 0.5s alternate;
+    z-index: 999999;
+}
+.blockLine{
+    max-height: 100px;
+    overflow: auto;
+}
+.blockCompany{
+    cursor: pointer;
+    background-color: #183C51;
+    min-width: 213px;
+}
+@keyframes moveRightLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+.mainBlockLink{
+    float: left;
+    text-align: left;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mainBlockLink:hover{
+    opacity: 0.5;
+    color: white;
+}
+.imgHeader{
+    width: 35px;
+    border-radius: 90px;
+    margin-left: 10px;
+}
+.lineList{
+    background: white;
+}
+.imgProfile{
+    object-fit: cover;
+    display: flex;
+    border-radius: 90px;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+}
+.imgProfile p{
+    font-size: 22px;
+    color: white;
+}
+.textList{
+    font-size: 15px;
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.mainBlockHeader{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.blockImgCompany{
+    height: 35px;
+    width: 35px;
+    text-align: left;
+}
+.textCompany{
+    width: 120px; text-align: left;
+}
+.authorizedFaceCompany{
+    color: white;
+    font-size: 12px;
+    line-height: 13px;
+    position: relative;
+    top:-5px;
+}
+.nameCompany{
+    position: relative;
+    top: 5px;
+    line-height: 17px;
+    color: white;
+    font-size: 14px;
+}
+.imgCompany{
+
+    height: 35px;
+    width: 35px;
+    border-radius: 90px;
+}
+.linkAddCompany{
+    color: white;
+}

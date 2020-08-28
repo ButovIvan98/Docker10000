@@ -1,0 +1,41 @@
+.blockCompany{
+    box-shadow: 0 0 5px #E3E3E3;
+}
+.blockFotoCompany{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+.imgCompany{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 90px;
+    position: relative;
+    top: -25px;
+}
+.blockImg{
+    height: 30px;
+}
+.labelDesc{
+    position: relative;
+    top:-15px;
+    font-size: 14px;
+    color: #0B202C;
+    opacity: 0.5;
+}
+.leftDescInfo{
+    border-right: 1px solid darkgrey;
+    height: 40px;
+}
+.rightDescInfo{
+    border-left: 1px solid darkgrey;
+    height: 40px;
+}
+.labelDesc2{
+    position: relative;
+    top:-15px;
+    font-size: 12px;
+    color: #0B202C;
+    opacity: 0.5;
+}

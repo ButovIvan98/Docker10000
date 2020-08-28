@@ -1,0 +1,12 @@
+.labelText {
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+    padding: 0 20px;
+    top: -45px;
+    transition: 0.3s;
+}
+.activeLabelText{
+    top: -66px;
+    transition: 0.3s;
+}

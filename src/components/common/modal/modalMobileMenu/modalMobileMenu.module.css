@@ -1,0 +1,82 @@
+/*Модальное окно - меню*/
+.modalHeader{
+    padding: 5px !important;
+    background:  #001C2D;
+    border-bottom: 0!important;
+    border-top-right-radius:0!important;
+    border-top-left-radius:0!important;
+
+}
+.modalDialog{
+    width: 100%!important;
+    margin: 0!important;
+    height: 100%!important;
+}
+.modalContent{
+    height: 100%!important;
+    border: 0!important;
+    border-radius: 0!important;
+}
+.modalBody{
+    background: linear-gradient(180deg, #001C2D 0%, #001018 100%);;
+
+}
+.close{
+    color: white !important;
+    opacity: 1 !important;
+}
+.modalHeaderText{
+    font-size: 18px;
+    color: white;
+}
+.link div span{
+font-size: 18px;
+    color: white;
+}
+.blockLine{
+    max-height: 235px;
+    overflow: auto;
+}
+.blockCompany{
+    padding: 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #183C51;
+    min-width: 213px;
+}
+.authorizedFaceCompany{
+    color: white;
+    font-size: 15px;
+    line-height: 13px;
+    position: relative;
+}
+.nameCompany{
+    position: relative;
+    top: 5px;
+    line-height: 17px;
+    color: white;
+    font-size: 20px;
+}
+.imgCompany{
+
+    height: 35px;
+    width: 35px;
+    border-radius: 90px;
+}
+.imgProfile{
+    display: flex;
+    border-radius: 90px;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    object-fit: cover;
+}
+.btnAddCompany{
+    background-color: rgb(40, 164, 235);
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: block;
+    border-radius: 4px;
+}

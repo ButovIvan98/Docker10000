@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blockMain {
+    /*background: linear-gradient(350deg, #18A2F1 0.79%, #0085FF 100%);*/
+    background: #c4e5ee;
+}
+
+.indexBlockMain {
+    position: relative;
+    left: 180px;
+    top: 3px;
+}
+
+.textHeader {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+}

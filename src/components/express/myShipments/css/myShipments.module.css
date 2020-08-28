@@ -1,0 +1,134 @@
+.block {
+    position: relative;
+
+    border-radius: 4px;
+}
+
+.blockRow {
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.listOrder {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer !important;
+    box-shadow: 0 0 5px #E3E3E3;
+}
+
+.listOrder:hover {
+    box-shadow: 0 0 5px rgba(0, 162, 255, 0.5);
+    transition: 0.3s;
+}
+
+.line {
+    width: 10%;
+    background: #FABD20;
+    height: 3px;
+    position: relative;
+    margin: 0 !important;
+    margin-left: 15px !important;
+}
+
+.textHeader {
+    font-size: 16px;
+    line-height: 18px;
+    color: #0B202C;
+}
+
+.text {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0B202C;
+    opacity: 0.5;
+    margin-bottom: 0px;
+}
+
+.lineDouble {
+    border: 0.5px dashed #FABD20;
+}
+
+.cityIn {
+    border-right: 1px solid grey;
+}
+
+.statusOrder {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+
+.search {
+    width: 40%;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 0 0 5px #E3E3E3;
+    margin-top: 15px;
+    padding-left: 15px;
+    transition: 0.3s;
+    outline: none !important;
+}
+
+.imgSearch {
+    position: relative;
+    top: 0;
+    left: -40px;
+}
+
+.search:focus {
+    box-shadow: 0 0 5px rgba(0, 162, 255, 0.5);
+    transition: 0.3s;
+}
+
+.listFilter {
+    border: 0;
+    font-size: 16px;
+    line-height: 18px;
+    outline: none !important;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 150px;
+}
+
+.textHeaderFilter {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #0B202C;
+    opacity: 0.4;
+
+}
+
+.imgSelect {
+    position: relative;
+    left: -10px;
+    pointer-events: none;
+}
+
+.navLink {
+    text-decoration: none !important;
+}
+
+@media (max-width: 992px) {
+    .search {
+        width: 100%;
+    }
+
+    .textHeaderFilter {
+        font-size: 14px;
+    }
+
+    .listFilter {
+        font-size: 14px;
+        width: 130px;
+    }
+}

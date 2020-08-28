@@ -1,0 +1,81 @@
+.dropzone{
+    border: 1px #e8e8e8 solid;
+    border-radius: 8px;
+}
+.blockDropzone{
+    border:2px dashed #eeeeee;
+    background: #fafafa;
+    padding: 20px 20px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.blockDropzone:hover{
+    background:	#F8F8F8;
+}
+.textDropzone{
+    color: #bdbdbd;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.fileDropzone{
+    margin: 20px 40px;
+}
+.block{
+    background: white;
+}
+.dropzoneContainer{
+    background: white!important;
+    border: 1px #e8e8e8 solid!important;
+    border-radius: 8px;
+    outline: none!important;
+    }
+.dropzoneParagraph{
+    font-size: 18px!important;
+    color: #909090;
+    font-weight: 500!important;
+}
+.addAddress{
+    display: inline-block;
+    width: 200px;
+    border: 0;
+    border-radius: 90px;
+    height: 50px;
+    color: white;
+    background: #0074D9;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addAddress:hover{
+    background: #183C51;
+    text-decoration: none;
+    color: white;
+}
+.addAddress:active{
+    background: #001C2D;
+}
+.addAddress span{
+    position: relative;
+    top: 15px;
+}
+.buttonLoad{
+    padding: 15px 30px;
+    background: #0074D9;
+    border-radius: 90px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none!important;
+}
+.buttonLoad:hover{
+    background: #183C51;
+    color: white;
+    text-decoration: none;
+}
+.buttonLoad:active{
+    background: #001C2D;
+}

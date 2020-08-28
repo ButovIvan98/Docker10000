@@ -1,0 +1,46 @@
+.block{
+    background: linear-gradient(210.4deg, #18A2F1 0.79%, #0085FF 100%);
+    min-height: 90vh;
+}
+.block404{
+    margin:0 auto;
+    position: relative;
+    margin-top: 13%;
+}
+.blockRow{
+    min-height: 90vh;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: white;
+    opacity: 0.5;
+}
+.addAddress{
+    display: inline-block;
+    width: 200px;
+    border: 0;
+    border-radius: 90px;
+    height: 50px;
+    color: white;
+    background: #0074D9;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.addAddress:hover{
+    background: #183C51;
+    text-decoration: none;
+    color: white;
+}
+.addAddress:active{
+    background: #001C2D;
+}
+.addAddress span{
+    position: relative;
+    top: 14px;
+}
+.cloud{
+
+}

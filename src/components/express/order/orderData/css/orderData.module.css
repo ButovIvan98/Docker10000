@@ -1,0 +1,21 @@
+.header1{
+    color: black;
+}
+.header2{
+    position: relative;
+    top: -8px;
+    font-size: 13px;
+    color: black;
+    opacity: 0.7;
+}
+.imgCompany{
+    width: 100%;
+}
+@media (max-width:992px) {
+    .header1{
+        font-size: 14px;
+    }
+    .header2{
+        font-size: 12px;
+    }
+}

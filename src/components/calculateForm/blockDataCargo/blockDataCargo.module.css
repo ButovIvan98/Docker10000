@@ -1,0 +1,28 @@
+.blockCalculate{
+    width: 800px;
+    margin: 0 auto;
+    }
+.buttonAddParametr{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none!important;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+.hrDashed{
+    border: none;
+	border-top: 2px dashed #ddd;
+}
+.deleteCargo{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none!important;
+}
+@media(max-width:991px){
+    .blockCalculate{
+        width: 100%;
+        max-width: 450px;
+    }
+}
