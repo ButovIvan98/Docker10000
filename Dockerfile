@@ -1,26 +1,19 @@
-# Setup and build the client
+# pull official base image
+FROM node:12.18.3-alpine
 
-FROM node:10 as client
+# set working directory
+WORKDIR /app
 
-WORKDIR /usr/app/client/
-COPY client/package*.json ./
-RUN yarn install
-COPY client/ ./
-RUN yarn run build
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
+# install app dependencies
+COPY package.json ./
+RUN npm install --silent
+RUN npm install react-scripts@3.4.1 -g --silent
 
-# Setup the server
+# add app
+COPY . ./
 
-FROM node:10
-
-WORKDIR /usr/app/
-COPY --from=client /usr/app/client/build/ ./client/build/
-
-WORKDIR /usr/app/server/
-COPY server/package*.json ./
-RUN yarn
-COPY server/ ./
-
-EXPOSE 5000
-
+# start app
 CMD ["npm", "start"]
