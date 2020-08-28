@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
 
-  sample-prod:
+  docker10000-prod:
     container_name: docker10000
     build:
       context: .
