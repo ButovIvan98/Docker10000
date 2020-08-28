@@ -9,3 +9,14 @@ services:
       dockerfile: Dockerfile.prod
     ports:
       - '3000:3000'
+  nginx:
+    restart: always
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    image: kenguru_production_nginx
+    volumes:
+      - /etc/letsencrypt/:/etc/letsencrypt/
+    ports:
+      - 80:80
+      - 443:443
